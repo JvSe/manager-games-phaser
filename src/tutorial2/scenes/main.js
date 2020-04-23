@@ -28,7 +28,7 @@ mainScene.create = function () {
 
     this.enemies = this.add.group({
         key: 'dragon',
-        repeat: 4,
+        repeat: 5,
         setXY: {
             x: 110,
             y: 100,
