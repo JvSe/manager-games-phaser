@@ -1,0 +1,95 @@
+<!doctype html> 
+<html>
+    <head>
+        <title>Phaser Games</title>
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            .title {
+                background: blue;
+                width: 100%;
+                text-align: center;
+                color: white;
+            }
+            .games {
+                margin: 0 auto;
+                padding: 20px 0;
+                text-align: center;
+            }
+            .games ul {
+                list-style: none;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 30px;
+                margin-top: 50px;
+            }
+
+            .games ul li {
+                display: flex;
+                flex-direction: column;
+            }
+            .games ul li img {
+                max-width: 100%;
+                border-radius: 15px 15px 0px 0px;
+            }
+            .games ul li footer {
+                flex: 1;
+                background: #fff;
+                border: 1px solid #eee;
+                padding: 15px 20px;
+                text-align: left;
+                border-radius: 0 0 5px 5px
+            }
+            .games ul li footer strong {
+                font-size: 16px;
+                color: #333;
+
+            }
+
+            .games ul li footer p {
+                font-size: 14px;
+                line-height: 20px;
+                color: #999;
+                margin-top: 5px;
+            }
+            a:hover {
+                cursor: pointer;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="title">
+            <h2>GAMES</h2>
+        </div>
+        <div class="games">
+            <ul>
+                <a href="/tutorial1">
+                    <li>
+                        <img src="./assets/tutorial1.png" alt="Tutorial 1">
+                        <footer>
+                            
+                            <strong>TUTORIAL 1</strong>
+                        </footer>
+                        
+                    </li>
+                </a>
+                <a href="/tutorial2">
+                    <li>
+                        <img src="./assets/tutorial2.png" alt="Tutorial 2">
+                        <footer>
+                            
+                            <strong>TUTORIAL 2</strong>
+                        </footer>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </body>
+</html>
