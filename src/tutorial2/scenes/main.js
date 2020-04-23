@@ -32,7 +32,7 @@ mainScene.create = function () {
         setXY: {
             x: 110,
             y: 100,
-            stepX: 90,
+            stepX: 80,
             stepY: 20
         }
     });
